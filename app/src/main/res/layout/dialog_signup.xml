@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/background"/>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="@string/i_am_an_actor"
+        android:drawableStart="@mipmap/group"
+        android:drawableLeft="@mipmap/group"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+        android:id="@+id/buttonActor"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="@string/i_am_an_actor"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:drawableStart="@mipmap/group"
+        android:drawableLeft="@mipmap/group"
+        android:background="@drawable/rectangle_pink"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <Button
+        android:id="@+id/buttonDirector"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="@string/i_am_a_casting_director"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:drawableStart="@mipmap/group1"
+        android:drawableLeft="@mipmap/group1"
+        android:background="@drawable/rectangle_pink"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonActor"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow"
+        android:layout_margin="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"/>
+</android.support.constraint.ConstraintLayout>

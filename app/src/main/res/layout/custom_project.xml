@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="350dp"
+    android:layout_margin="8dp"
+    tools:ignore="HardcodedText"
+    android:background="#fafafa">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fafafa"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageProject"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:minWidth="319dp"
+                android:src="@mipmap/img"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/app_name" />
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beast of a nation"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="2dp"
+                android:layout_gravity="center|bottom"/>
+        </FrameLayout>
+        <TextView
+            android:id="@+id/textDescript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:text="description" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#bcbbbb"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/buttonPreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/video"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/app_name" />
+            <TextView
+                android:id="@+id/textApplied"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="@string/applied"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:visibility="visible"
+                android:background="@drawable/rectangle_green"
+                android:layout_toRightOf="@id/buttonPreview"
+                android:layout_toEndOf="@id/buttonPreview"
+                android:layout_marginLeft="4dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="4dp" />
+
+            <FrameLayout
+                android:id="@+id/frameNotify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true">
+
+                <ImageButton
+                    android:id="@+id/buttonNotification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_notifications"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/app_name" />
+                <TextView
+                    android:id="@+id/textNotifyCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:text="1"
+                    android:visibility="gone"
+                    android:textColor="@color/white"
+                    android:layout_gravity="top|end"
+                    android:gravity="center"/>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/buttonApply"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textColor="@color/white"
+                android:text="@string/apply"
+                android:visibility="visible"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/rectangle_margenta"
+                android:layout_gravity="end"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                tools:ignore="RelativeOverlap" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

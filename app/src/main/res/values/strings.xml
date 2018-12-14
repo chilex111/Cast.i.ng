@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Casting</string>
+    <string name="ok">OK</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="address">Address</string>
+    <string name="company">Company</string>
+    <string name="promo">Promo</string>
+    <string name="signup">SignUp</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+    <string name="get_countless_casting_calls">Get Countless Casting Calls</string>
+    <string name="terms">I agree to the</string>
+    <string name="actors">Actors</string>
+    <string name="register_today_as_an_actor_in_cast_i_ng">REGISTER TODAY AS AN ACTOR IN CAST.I.NG</string>
+    <string name="terms_and_condition">Terms and Condition</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="apply">Apply</string>
+    <string name="applied">Applied</string>
+    <string name="applied_roles">Applied Roles</string>
+    <string name="recent_projects">Recent Projects</string>
+    <string name="dash_board">Dash board</string>
+    <string name="audition">Audition</string>
+    <string name="profile">Profile</string>
+
+    <string name="permission_info">App requires permission to Storage to view images.</string>
+    <string name="permission_force">App requires permission to Storage to view images. Tap Settings and go to Permissions to grant permission.</string>
+    <string name="permission_ok">OK</string>
+    <string name="permission_settings">Settings</string>
+    <string name="permission_package">package</string>
+    <string name="add_education">Add Education</string>
+    <string name="add_filmography">Add Filmography</string>
+    <string name="i_am_an_actor">I am an Actor</string>
+    <string name="i_am_a_casting_director">I am a Casting Director</string>
+    <string name="no_available_project_for_you">No Available project for you</string>
+    <string name="headshot_photos">HeadShot Photos</string>
+    <string name="bts_photos">BTS Photos</string>
+    <string name="add_headshot_photo">Add HeadShot Photo</string>
+    <string name="add_bts_photo">Add BTS Photo</string>
+</resources>
